@@ -1,0 +1,128 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    text-decoration: none ;
+    list-style: none;
+    }
+    header{
+    height: 25   vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    }
+    .BoxLogo{
+    width: 35vw;
+    display:flex;
+    align-items: center;
+    h1{
+        color: white;
+        font-size: 25px;
+    }
+    
+    }
+    nav{
+        width: 30vw;
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+            a{
+                color: white;
+            }
+        }
+    }
+    //------------ Main---------//
+    .SOBRE{
+        border: solid 2px;
+        height: 60vh;
+        background-color: #ffd9ec;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        @media (max-width:600px){
+            flex-direction: column-reverse;
+            height: 70vh;
+        }
+        
+        p{
+           
+            width:30vw;
+            font-size: 1.5vw;
+            @media(max-witdh:800px){
+                font-size:2vw;
+                width:40vw;
+            }
+    @media(max-width:600px){
+        width:70vw;
+        font-size: 2.6vw;
+
+    }
+    @media(max-width:450px){
+        font-size: 3vw;
+        width: 75vw;
+    }
+        }
+        img{
+            width:18vw;
+            @media(max-witdh:800px){
+                width: 20vw;
+                font-size: 2.4vw;
+            }
+        }
+    
+    }
+    .CONSCIENTIZAÇÃO{
+        border: solid 2px;
+        height: 50vh;
+        background-color:  #FF69B4;
+        ;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        @media (max-width:600px){
+            flex-direction: column-reverse;
+            height: 70vh;
+        }
+        
+        p{
+            
+            width:30vw;
+            font-size: 1.5vw;
+            @media(max-witdh:800px){
+                font-size:2vw;
+                width:40vw;
+            }
+    @media(max-width:600px){
+        width:70vw;
+        font-size: 2.6vw;
+
+    }
+    @media(max-width:450px){
+        font-size: 3vw;
+        width: 75vw;
+    }
+        }
+        img{
+            width:20vw;
+            @media(max-witdh:800px){
+                width: 20vw;
+                font-size: 2.4vw;
+            }
+        }
+    
+    }
+    .DICAS{
+        border: solid 2px red;
+        height: 60vh;
+        background-color: #FFD9EC;
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+       
+    
+    }
